@@ -5,3 +5,4 @@ services:
     volumes:
       - ./template_doc:/app/template_doc
       - ./result_pdf:/app/result_pdf
+      - ./logs:/app/logs
